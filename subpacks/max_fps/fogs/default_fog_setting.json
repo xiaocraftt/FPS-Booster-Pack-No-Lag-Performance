@@ -1,0 +1,40 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "xc:max_fps_fog"
+    },
+
+    "distance": {
+      "air": {
+        "fog_start": 0.40,
+        "fog_end": 0.65,
+        "fog_color": "#9FA6A8",
+        "render_distance_type": "render"
+      },
+
+      "water": {
+        "fog_start": 6.0,
+        "fog_end": 12.0,
+        "fog_color": "#2C3840",
+        "render_distance_type": "fixed"
+      },
+
+      "weather": {
+        "fog_start": 0.45,
+        "fog_end": 0.65,
+        "fog_color": "#9FA6A8",
+        "render_distance_type": "render"
+      },
+
+      "lava": {
+        "fog_start": 0.0,
+        "fog_end": 0.5,
+        "fog_color": "#C43B1D",
+        "render_distance_type": "fixed"
+      }
+    }
+
+    /* volumetric intentionally removed for FPS */
+  }
+}
