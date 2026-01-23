@@ -1,17 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "name": "FPS Booster Pack | No Lag + Performance",
+    "name": "FPS Booster Pack | No Lag + Performance v1.4",
     "description": "Increase FPS, reduce lag, and optimize performance for all devices — smooth gameplay even on low-end hardware.",
-    "uuid": "5be451e9-2b4c-4e5e-9d03-a6c12610de4d",
-    "version": [1, 3, 0],
+    "uuid": "6872aec3-79ba-4da7-8dcf-655f9c2f6e28",
+    "version": [1, 4, 0],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
       "type": "resources",
-      "uuid": "c7df6063-7ef1-49b3-ac5b-3986bfaf85ea",
-      "version": [1, 3, 0]
+      "uuid": "d4e9bb5d-71bf-4e6f-8a6f-a4520258a510",
+      "version": [1, 4, 0]
     }
   ],
 
@@ -22,8 +22,8 @@
       "memory_tier": 1
     },
     {
-      "folder_name": "balanced",
-      "name": "Balanced Performance",
+      "folder_name": "default",
+      "name": "Default",
       "memory_tier": 2
     }
   ],
